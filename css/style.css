@@ -1,0 +1,70 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+html, body{
+    font-family: 'SF Pro Display', sans-serif;
+}
+h1{
+    font-size: 110px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 105px;
+    padding-top: 86px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 38px;
+}
+span{
+    color: #04A5FF;
+}
+.navbar-brand img{
+    width: 202.8px;
+    height: 52px;
+    margin-left: 195px;
+}
+#indentation-left{
+    padding-left: 325px;
+}
+#indentation-top{
+    padding-top: 86px;
+}
+
+.img-for-info{
+    height: 407px;
+    width: 678px;
+}
+
+#btn-create{ 
+    background-color: #5072FE;
+    height: 60px;
+    width: 220px;
+    --bs-border-radius-sm: 0.75rem;
+}
+
+.btn-pos{
+    padding-top: 30px;
+}
+
+.block-info{
+    height: 407px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.delimiter h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.rectangle{
+    height: 14px;
+    width: 115px;
+    background-color: #5072FE;
+}
+.rectangle-pos{
+    display: flex;
+    justify-content: center;
+}
