@@ -91,34 +91,22 @@ span{
     border-radius: 31px;
 }
 
-/* Это ужас какой то */
-
-.row-block-advantages{
-    display: flex;
-    height: 753px;
+.row-advantages{
+    display: grid;
+    grid-auto-flow: column dense;
+    justify-content: center;
     padding-top: 86px;
 }
 
-.row-block-advantages-text{
-    display: flex;
-    align-items: end;
+.advantages-pic{
+    grid-row: span 2;
+    margin-right: 100px;
 }
-
-.block-advantages{
-    height: 597px;
-    width: 753px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
-
-/* Это ужас какой то */
 
 .row-bg-sample{
     display: flex;
     justify-content: center;
-    padding-top: 172px; /* Из-за верхнего блока padding x2,*/
+    padding-top: 86px;
 }
 
 .sample-text{
