@@ -19,17 +19,19 @@ p{
     color: #000000;
     line-height: 38px;
 }
+
+b{
+    font-size: 35px;
+}
 span{
     color: #04A5FF;
 }
 
 .navbar-brand img{
-    margin-left: 195px;
+    padding-left: 195px;
 }
+
 .row-title{
-    display: flex;
-    align-content: center;
-    justify-content: center;
     padding-top: 86px;
 }
 
@@ -38,10 +40,10 @@ span{
 }
 
 .block-info{
-    height: 407px;
     display: flex;
     flex-direction: column;
     justify-content: end;
+    padding-right: 125px;
 }
 
 .btn-pos{
@@ -53,10 +55,6 @@ span{
     height: 60px;
     width: 220px;
     --bs-border-radius-sm: 0.75rem;
-}
-
-.row-delimiter{
-    display: flex;
 }
 
 .block-delimiter{
@@ -76,21 +74,28 @@ span{
     background-color: #5072FE;
 }
 
-.row-bg-fact{
+.all-fc{
     display: flex;
     justify-content: center;
-    align-content: center;
     padding-top: 86px;
 }
 
-.background-fact{
+.back-fc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 1530px;
     height: 609px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #EFF5FD;
     border-radius: 31px;
+}
+
+.text-fc{
+    display: flex;
+}
+
+.img-fc{
+    display: flex;
 }
 
 .row-advantages{
@@ -102,58 +107,54 @@ span{
 
 .advantages-pic{
     grid-row: span 2;
-    margin-right: 100px;
+    padding-right: 100px;
 }
 
-.row-bg-sample{
+.all-sample{
     display: flex;
     justify-content: center;
-    align-content: center;
     padding-top: 86px;
 }
 
-.sample-text{
+.bg-sample{
     display: flex;
-    justify-content: end;
-}
-
-.background-sample{
+    align-items: center;
+    justify-content: center;
     width: 1530px;
     height: 609px;
+    background-color: #EFF5FD;
+    border-radius: 31px;
+}
+
+.text-samp{
     display: flex;
+}
+
+.img-samp{
+    display: flex;
+}
+
+.row-title-end{
+    padding-top: 250px;
+}
+
+.row-block-end{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 86px;
+}
+
+.email-void{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #EFF5FD;
     border-radius: 31px;
 }
 
-.row-title-end{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding-top: 86px;
-}
-
-.row-block-end{
-    display: flex;
-    align-items: start;
-    padding-top: 86px;
-}
-
-.email-void{
-    width: 589px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #EFF5FD;
-    border-radius: 31px;
-}
-
-.email-form{
-    display: flex;
-    align-self: center;
-}
 .email-form input{
     width: 410px;
     height: 90px;
@@ -162,315 +163,61 @@ span{
     padding: 15px;
     font-size: 24px;
 }
+
 .btn-take{
-    display: flex;
-    align-self: center;
     padding-top: 20px;
 }
+
 .btn-take button{
     background-color: #5072FE;
     height: 70px;
     width: 410px;
+    font-size: 16px;
     --bs-border-radius-sm: 0.75rem;
 }
 
-foter{
-    width: 100%;
-}
-footer img{
-    margin-left: 195px;
-}
-
-@media (max-width: 668px){
-
-    .row-title{
-        flex-direction: column;
-        padding-top: 40px;
-    }
-
-    .row-title h1{
-        font-size: 50px;
+@media(max-width: 440px){
+    h1{
+        font-size: 45px;
         line-height: 45px;
     }
 
+    p{
+        font-size: 30px;
+        line-height: 30px;
+    }
     
-
-    .row-block-main{
-        flex-direction: column;
-        padding-top: 120px;
+    .container{
+        max-width: 400px;
     }
 
-    .row-block-main p{
-        font-size: 25px;
-        line-height: 30px;
-    }
-
-    .block-info{
-        height: 200px;
-        align-items: center;
-    }
-
-    .btn-pos button{
-        width: 300px;
-        height: 75px;
-        font-size: 25px;
-    }
-
-    .mob-img1 img{
-        width: 400px;
-    }
-
-
-
-    .block-delimiter h1{
-        font-size: 40px;
-        line-height: 40px;
-        width: 400px;
-        text-align: center;
-        padding-top: 60px;
-    }
-
-
-
-    .row-bg-fact{
-        padding-top: 60px;
-    }
-
-    .background-fact{
-        width: 400px;
-        height: 650px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .background-fact p{
-        font-size: 25px;
-        text-align: center;
-        line-height: 30px;
-    }
-
-    .background-fact img{
-        width: 400px;
-    }
-
-
-
-    .row-advantages{
-        width: 335px;
-        padding-top: 60px;
-        grid-auto-flow: row dense;
-        
-    }
-
-    .advantages-pic img{
-        width: 400px;
-    }
-
-    .row-advantages p{
-        font-size: 25px;
-        text-align: center;
-        line-height: 30px;
-        padding: 25px;
-    }
-
-
-
-    .row-bg-sample{
-        padding-top: 60px;
-    }
-
-    .background-sample{
-        width: 400px;
-        height: 625px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .background-sample p{
-        font-size: 25px;
-        text-align: center;
-        line-height: 30px;
-    }
-
-    .background-sample img{
-        width: 400px;
-    }
-
-
-
-    .row-title-end h1{
-        font-size: 50px;
-        line-height: 45px;
-    }
-
-    
-
-    .row-block-end{
-        padding-top: 60px;
-        flex-direction: column;
-    }
-
-    .email-void{
-        width: 400px;
-    }
-
-    .email-form input{
-        width: 300px;
-    }
-    .email-void button{
-        width: 300px;
-        font-size: 20px;
-    }
-
-    .row-block-end img{
-        width: 400px;
-    }
-}
-
-@media (max-width: 450px){
     .navbar-brand img{
-        margin: 0%;
+        padding-left: 100px;
     }
+
     .row-title{
-        flex-direction: column;
-        padding-top: 40px;
+        padding-top: 30px;
     }
-
-    .row-title h1{
-        font-size: 40px;
-        line-height: 35px;
-    }
-
-    
 
     .row-block-main{
+        padding-top: 30px;
         flex-direction: column;
-        padding-top: 60px;
     }
 
-    .row-block-main p{
-        font-size: 20px;
-        line-height: 25px;
+    .row-block-main img{
+        width: 350px;
     }
 
     .block-info{
-        height: 200px;
-        align-items: center;
+        padding: 0px;
     }
 
-    .btn-pos button{
-        width: 250px;
-        height: 75px;
-        font-size: 20px;
+    .btn-pos{
+        padding-top: 10px;
     }
-
-    .mob-img1 img{
-        width: 370px;
-    }
-
-
 
     .block-delimiter h1{
         font-size: 40px;
-        line-height: 35px;
-        width: 375px;
         text-align: center;
-        padding-top: 60px;
     }
-
-
-
-    .row-bg-fact{
-        padding-top: 60px;
-    }
-
-    .background-fact{
-        width: 350px;
-        height: 470px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .background-fact p{
-        font-size: 20px;
-        text-align: center;
-        line-height: 25px;
-    }
-
-    .background-fact img{
-        width: 345px;
-    }
-
-
-
-    .row-advantages{
-        width: 335px;
-        padding-top: 60px;
-        grid-auto-flow: row dense;
-        
-    }
-
-    .advantages-pic img{
-        width: 400px;
-    }
-
-    .row-advantages p{
-        font-size: 25px;
-        text-align: center;
-        line-height: 30px;
-        padding: 25px;
-    }
-
-
-
-    .row-bg-sample{
-        padding-top: 60px;
-    }
-
-    .background-sample{
-        width: 350px;
-        height: 550px;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .background-sample p{
-        font-size: 20px;
-        text-align: center;
-        line-height: 25px;
-    }
-
-    .background-sample img{
-        width: 350px;
-    }
-
-
-
-    .row-title-end h1{
-        font-size: 40px;
-        line-height: 35px;
-    }
-
-    
-
-    .row-block-end{
-        padding-top: 60px;
-        flex-direction: column;
-    }
-
-    .email-void{
-        width: 350px;
-    }
-
-    .email-form input{
-        width: 300px;
-    }
-    .email-void button{
-        width: 300px;
-        font-size: 20px;
-    }
-
-    .row-block-end img{
-        width: 350px;
-    }        
 }
