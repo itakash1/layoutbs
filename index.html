@@ -17,7 +17,7 @@
 
 <header>
   <nav class="navbar">
-    <div class="container">
+    <div class="container-fluid">
       <a href="index.html" class="navbar-brand">
         <img src="/source/logo.png" title="Videolab">
       </a>
@@ -26,8 +26,8 @@
 </header>
 
 <body>
-  <div class="container">
-    <div class="row-title">
+  <div class="container padd">
+    <div class="row">
       <h1>
         Создавайте захватывающие видео <span>легко и быстро<span>
       </h1>
@@ -35,8 +35,8 @@
   </div>
 
   <div class="container">
-    <div class="row-block-main">
-      <div class="block-info">
+    <div class="row">
+      <div class="col-md-6 info-txt"> 
         <div>
           <p>
             <b>Videolab</b> — искусственный<br>
@@ -45,18 +45,18 @@
             контента вашего блога или канала.
           </p>
         </div>
-        <div class="btn-pos">
+        <div class="btn-style">
           <button class="btn btn-primary btn-sm" type="button">Создать проект</button>
-        </div>
+        </div>    
       </div>
-      <div>
+      <div class="col-md-6">
         <img src="source/picture_1.png">
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="row-delimiter">
+  <div class="container padd padd-b">
+    <div class="row">
       <div class="block-delimiter">
         <div>
           <h1>4 состовляющих идеального видео</h1>
@@ -66,11 +66,10 @@
     </div>
   </div>
 
-  <div class="all-fc">
-    <div class="back-fc">
-      <div class="text-fc">
-        <div class="container">
-          <div>
+    <div class="bg-fc">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 fc-txt">
             <p>
               <b>Искусственный интеллект</b><br><br>
               Вы вводите текст поста или статьи<br>
@@ -80,24 +79,21 @@
               субтитры и создаёт видео ролик.
             </p>
           </div>
-          
-        </div>
-      </div>
-      <div class="img-fc">
-        <div class="container">
-          <img src="source/picture_2.png">
+          <div class="col-md-7 fc-img">
+            <img src="source/picture_2.png">
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row-advantages">
-      <div class="advantages-pic">
+  <div class="container padd padd-b">
+    <div class="row">
+      <div class="col-md-6">
         <img src="source/picture_3.png">
       </div>
-      <div class="advantages-txt1">
-        <p>
+      <div class="col-md-6 AI-txt">
+        <div>
+          <p>
           <b>Простота использования</b><br><br>
           Интуитивный интерфейс позволяет<br>
           создавать и редактировать видео<br>
@@ -105,48 +101,45 @@
           Videolab — не нужно уметь<br>
           работать в сложных редакторах.
         </p>
-      </div>
-      <div class="advantages-txt2">
-        <p>
-          <b>Контекстный поиск</b><br><br>
-          Если автоматически полученное<br>
-          видео Вас не устроит — Videolab<br>
-          подберёт на выбор фото, видео,<br>
-          музыку с различными вариантами<br>
-          лицензирования.
-        </p>
+        </div>
+        <div>
+          <p>
+            <b>Контекстный поиск</b><br><br>
+            Если автоматически полученное<br>
+            видео Вас не устроит — Videolab<br>
+            подберёт на выбор фото, видео,<br>
+            музыку с различными вариантами<br>
+            лицензирования.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 
-
-  <div class="all-sample">
-    <div class="bg-sample">
-      <div class="text-samp">
-        <div class="container">
-          <div>
-            <p>
-              <b>Настраиваемые шаблоны</b><br><br>
-              Скорректируйте полученное видео<br>
-              при помощи разнообразных<br>
-              шаблонов и получите эффективные<br>
-              рекламные и новостные видео,<br>
-              интро, промо ролики и даже<br>
-              презентации.
-            </p>
-          </div>
+  <div class="bg-sample">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 samp-txt">
+          <p>
+            <b>Настраиваемые шаблоны</b><br><br>
+            Скорректируйте полученное видео<br>
+            при помощи разнообразных<br>
+            шаблонов и получите эффективные<br>
+            рекламные и новостные видео,<br>
+            интро, промо ролики и даже<br>
+            презентации.
+          </p>
         </div>
-      </div>
-      <div class="img-samp">
-        <div class="container">
+        <div class="col-md-7 samp-img">
           <img src="source/picture_4.png">
         </div>
       </div>
     </div>
   </div>
+       
 
-  <div class="container">
-    <div class="row-title-end">
+  <div class="container padd-lg">
+    <div class="row">
       <h1>
         <span>Оставьте свой email,</span><br>
         мы пришлем тарифы<br>
@@ -156,26 +149,27 @@
   </div>
 
   <div class="container">
-    <div class="row-block-end">
-      <div class="email-void">
-        <div class="email-form">
+    <div class="row">
+      <div class="col-md-7 email-void-pos">
+        <div class="email-void">
           <input type="email" placeholder="Ваш e-mail*">
-        </div>
-        <div class="btn-take">
           <button class="btn btn-primary btn-sm" type="button">Получить тарифы и примеры</button>
         </div>
       </div>
-      <div>
+      <div class="col-md-5">
         <img src="source/picture_5.png">
       </div>
     </div>
   </div>
 
-  <div class="container-fluid">
-    <a href="index.html" class="navbar-brand">
-      <img src="/source/logo.png" title="Videolab">
-    </a>
-  </div>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand">
+        <img src="/source/logo.png" title="Videolab">
+      </a>
+    </div>
+  </nav>
+
 </body>
 
 </html>
