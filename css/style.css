@@ -34,6 +34,10 @@ img{
     width: 100%;
 }
 
+.navbar{
+    margin-left: 10%
+}
+
 .padd{
     padding-top: 86px;
 }
