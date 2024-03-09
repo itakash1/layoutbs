@@ -42,10 +42,6 @@ img{
     padding-bottom: 86px;
 }
 
-.padd-lg{
-    padding-top: 290px;
-}
-
 .info-txt{
     display: flex;
     justify-content: end;
@@ -114,6 +110,12 @@ img{
 .samp-txt{
     display: flex;
     align-items: center;
+}
+
+.bg-fn{
+    background-image: url("../source/Ellipse\ 9.png");
+    background-position: bottom;
+    height: 50%;
 }
 
 .email-void-pos{
@@ -193,6 +195,10 @@ img{
     .samp-img{
         padding: 20px;
     }
+    .bg-fn{
+        height: 15%;
+        background-size: cover;
+    }
     .email-void-pos{
         justify-content: center;
         padding-top: 50px;
@@ -252,6 +258,10 @@ img{
     .samp-img{
         padding: 20px;
     }
+    .bg-fn{
+        height: 20%;
+        background-size: cover;
+    }
     .email-void-pos{
         justify-content: center;
         padding-top: 50px;
@@ -308,6 +318,10 @@ img{
     .samp-img{
         padding: 20px;
     }
+    .bg-fn{
+        height: 30%;
+        background-size: cover;
+    }
     .email-void-pos{
         justify-content: center;
         padding-top: 50px;
@@ -341,6 +355,10 @@ img{
         padding-top: 15px;
         justify-content: center;
     }
+    .bg-fn{
+        height: 30%;
+        background-size: cover;
+    }
     .email-void-pos{
         justify-content: center;
         padding-top: 50px;
@@ -364,6 +382,9 @@ img{
     }
     b{
         font-size: 30px;
+    }
+    .bg-fn{
+        background-size: cover;
     }
     .info-txt b{
         font-size: 25px;
