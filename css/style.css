@@ -47,7 +47,7 @@ img{
 }
 
 .navbar-brand{
-    margin-left: 195px;
+    margin-left: 1.95%;
 }
 
 .info-txt{
@@ -131,6 +131,7 @@ img{
     justify-content: center;
     align-content: space-evenly;
     max-width: 500px;
+    max-height: 300px;
     height: 300px;
     background-color: #EFF5FD;
     border-radius: 24px;
@@ -151,4 +152,224 @@ img{
     height: 70px;
     font-size: 16px;
     --bs-border-radius-sm: 0.75rem;
+}
+
+@media screen and (min-width: 369px) and (max-width: 491px){
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 20px;
+    }
+    b{
+        font-size: 24px;
+    }
+    .info-txt b{
+        font-size: 20px;
+    }
+    .padd-lg{
+        padding-top: 100px;
+    }
+    .block-delimiter{
+        text-align: center;
+    }
+    .block-delimiter h1{
+        font-size: 35px;
+    }
+    .fc-txt{
+        padding-top: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .fc-img{
+        padding: 20px;
+    }
+    .AI-txt{
+        text-align: center;
+        align-items: center;
+        padding: 15px;
+    }
+    .samp-txt{
+        padding-top: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .samp-img{
+        padding: 20px;
+    }
+    .email-void-pos{
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .email-void{
+        transform: scale(90%);
+    }
+    .email-void input{
+        transform: scale(80%);
+    }
+    .email-void button{
+        transform: scale(80%);
+    }
+
+}
+
+@media screen and (min-width: 492px) and (max-width: 768px){
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 25px;
+    }
+    b{
+        font-size: 30px;
+    }
+    .info-txt b{
+        font-size: 25px;
+    }
+    .padd-lg{
+        padding-top: 125px;
+    }
+    .block-delimiter{
+        text-align: center;
+    }
+    .block-delimiter h1{
+        font-size: 40px;
+    }
+    .fc-txt{
+        padding-top: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .fc-img{
+        padding: 20px;
+    }
+    .AI-txt{
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .samp-txt{
+        padding-top: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .samp-img{
+        padding: 20px;
+    }
+    .email-void-pos{
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .email-void{
+        transform: scale(90%);
+    }
+    .email-void input{
+        transform: scale(90%);
+    }
+    .email-void button{
+        transform: scale(90%);
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    h1{
+        font-size: 80px;
+    }
+    p{
+        font-size: 25px;
+    }
+    b{
+        font-size: 30px;
+    }
+    .info-txt b{
+        font-size: 25px;
+    }
+    .padd-lg{
+        padding-top: 150px;
+    }
+    .block-delimiter h1{
+        font-size: 40px;
+    }
+    .fc-txt{
+        padding-top: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .fc-img{
+        padding: 60px;
+    }
+    .AI-txt{
+        align-items: center;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .samp-txt{
+        padding-top: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    .samp-img{
+        padding: 20px;
+    }
+    .email-void-pos{
+        justify-content: center;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    h1{
+        font-size: 90px;
+    }
+    p{
+        font-size: 25px;
+    }
+    b{
+        font-size: 30px;
+    }
+    .info-txt b{
+        font-size: 25px;
+    }
+    .padd-lg{
+        padding-top: 175px;
+    }
+    .fc-txt{
+        padding-top: 15px;
+        justify-content: center;
+    }
+    .AI-txt{
+        align-items: center;
+    }
+    .samp-txt{
+        padding-top: 15px;
+        justify-content: center;
+    }
+    .email-void-pos{
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .fc-img{
+        display: flex;
+        align-items: center;
+    }
+    .samp-img{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+    h1{
+        font-size: 90px;
+    }
+    p{
+        font-size: 25px;
+    }
+    b{
+        font-size: 30px;
+    }
+    .info-txt b{
+        font-size: 25px;
+    }
 }
