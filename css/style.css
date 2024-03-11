@@ -35,28 +35,29 @@ img{
 }
 
 .bg-el1{
-    background-image: url("../source/Ellipse\ 9.png");
-    background-position: bottom;
-    width: 100%;
-    padding-bottom: 400px;
-}
-
-.bg-el2{
-    background-image: url("../source/Ellipse\ 8.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    padding-bottom: 250px;
-    width: 100%;
-}
-
-.bg-el3{
     background-image: url("../source/Ellipse\ 7.png");
-    background-position: center left;
     background-repeat: no-repeat;
-    width: 100%;
-    padding-bottom: 1000px;
-    position: absolute;
+    background-size: contain;
+    height: 100%;
+    background-position: left center;
 }
+
+.bg-el1 .bg-el2{
+    background-image: url("../source/Ellipse\ 8.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-position: right bottom;
+}
+
+.bg-el1 .bg-el3{
+    background-image: url("../source/Ellipse\ 9.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    background-position: center top;
+}
+
 
 .padd{
     padding-top: 86px;
@@ -66,6 +67,9 @@ img{
     padding-bottom: 86px;
 }
 
+.padd-lg{
+    padding-top: 20%;
+}
 .info-txt{
     display: flex;
     justify-content: end;
@@ -179,12 +183,6 @@ img{
     b{
         font-size: 24px;
     }
-    .bg-el1{
-        background-position: bottom;
-    }
-    .bg-el2{
-        background-position: center right;
-    }
     .info-txt b{
         font-size: 20px;
     }
@@ -240,9 +238,6 @@ img{
     }
     b{
         font-size: 30px;
-    }
-    .bg-el1{
-        background-position: bottom;
     }
     .info-txt b{
         font-size: 25px;
@@ -300,12 +295,7 @@ img{
     b{
         font-size: 30px;
     }
-    .bg-el1{
-        background-position: bottom;
-    }
-    .bg-el2{
-        background-position: bottom right;
-    }
+    
     .info-txt b{
         font-size: 25px;
     }
@@ -349,12 +339,6 @@ img{
     b{
         font-size: 30px;
     }
-    .bg-el1{
-        background-position: bottom;
-    }
-    .bg-el2{
-        background-position: center right;
-    }
     .info-txt b{
         font-size: 25px;
     }
@@ -392,12 +376,6 @@ img{
     }
     b{
         font-size: 30px;
-    }
-    .bg-el1{
-        background-position: bottom;
-    }
-    .bg-el2{
-        background-position: center right;
     }
     .info-txt b{
         font-size: 25px;
