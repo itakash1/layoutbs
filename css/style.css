@@ -34,6 +34,30 @@ img{
     width: 100%;
 }
 
+.bg-el1{
+    background-image: url("../source/Ellipse\ 9.png");
+    background-position: bottom;
+    width: 100%;
+    padding-bottom: 400px;
+}
+
+.bg-el2{
+    background-image: url("../source/Ellipse\ 8.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding-bottom: 250px;
+    width: 100%;
+}
+
+.bg-el3{
+    background-image: url("../source/Ellipse\ 7.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 1000px;
+    position: absolute;
+}
+
 .padd{
     padding-top: 86px;
 }
@@ -88,7 +112,6 @@ img{
     align-items: center;
 }
 
-
 .fc-img{
     padding: 80px;
 }
@@ -110,12 +133,6 @@ img{
 .samp-txt{
     display: flex;
     align-items: center;
-}
-
-.bg-fn{
-    background-image: url("../source/Ellipse\ 9.png");
-    background-position: bottom;
-    height: 40%;
 }
 
 .email-void-pos{
@@ -162,11 +179,14 @@ img{
     b{
         font-size: 24px;
     }
+    .bg-el1{
+        background-position: bottom;
+    }
+    .bg-el2{
+        background-position: center right;
+    }
     .info-txt b{
         font-size: 20px;
-    }
-    .padd-lg{
-        padding-top: 100px;
     }
     .block-delimiter{
         text-align: center;
@@ -195,10 +215,6 @@ img{
     .samp-img{
         padding: 20px;
     }
-    .bg-fn{
-        background-position: bottom;
-        height: 40%;
-    }
     .email-void-pos{
         justify-content: center;
         padding-top: 50px;
@@ -225,11 +241,11 @@ img{
     b{
         font-size: 30px;
     }
+    .bg-el1{
+        background-position: bottom;
+    }
     .info-txt b{
         font-size: 25px;
-    }
-    .padd-lg{
-        padding-top: 125px;
     }
     .block-delimiter{
         text-align: center;
@@ -258,10 +274,6 @@ img{
     .samp-img{
         padding: 30px;
     }
-    .bg-fn{
-        background-position: bottom;
-        height: 40%;
-    }
     .email-void-pos{
         justify-content: center;
         padding-top: 50px;
@@ -288,11 +300,14 @@ img{
     b{
         font-size: 30px;
     }
+    .bg-el1{
+        background-position: bottom;
+    }
+    .bg-el2{
+        background-position: bottom right;
+    }
     .info-txt b{
         font-size: 25px;
-    }
-    .padd-lg{
-        padding-top: 150px;
     }
     .block-delimiter h1{
         font-size: 40px;
@@ -318,10 +333,6 @@ img{
     .samp-img{
         padding: 20px;
     }
-    .bg-fn{
-        background-position: bottom;
-        height: 40%;
-    }
     .email-void-pos{
         justify-content: center;
         padding-top: 50px;
@@ -338,11 +349,14 @@ img{
     b{
         font-size: 30px;
     }
+    .bg-el1{
+        background-position: bottom;
+    }
+    .bg-el2{
+        background-position: center right;
+    }
     .info-txt b{
         font-size: 25px;
-    }
-    .padd-lg{
-        padding-top: 175px;
     }
     .fc-txt{
         padding-top: 15px;
@@ -354,10 +368,6 @@ img{
     .samp-txt{
         padding-top: 15px;
         justify-content: center;
-    }
-    .bg-fn{
-        background-position: bottom;
-        height: 40%;
     }
     .email-void-pos{
         justify-content: center;
@@ -383,9 +393,11 @@ img{
     b{
         font-size: 30px;
     }
-    .bg-fn{
-        background-position: relative bottom;
-        height: 40%;
+    .bg-el1{
+        background-position: bottom;
+    }
+    .bg-el2{
+        background-position: center right;
     }
     .info-txt b{
         font-size: 25px;
