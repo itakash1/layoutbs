@@ -32,8 +32,29 @@ span{
 
 img{
     width: 100%;
+    height: 100%;
 }
 
+.top-bg{
+    background-image: url("../source/Ellipse\ 5.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: right top;
+}
+
+.top-bg1{
+    background-image: url("../source/Thorus1.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.top-bg2{
+    background-image: url("../source/Flat\ Cylinder\ 3.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100%;
+}
 .bg-el1{
     background-image: url("../source/Ellipse\ 7.png");
     background-repeat: no-repeat;
@@ -58,6 +79,9 @@ img{
     background-position: center top;
 }
 
+.navbar-pos{
+    margin-left: 195px;
+}
 
 .padd{
     padding-top: 86px;
@@ -70,6 +94,7 @@ img{
 .padd-lg{
     padding-top: 20%;
 }
+
 .info-txt{
     display: flex;
     justify-content: end;
@@ -109,6 +134,7 @@ img{
     max-width: 1530px;
     background-color: #EFF5FD;
     border-radius: 31px;
+    min-height: 609px;
 }
 
 .fc-txt{
@@ -117,7 +143,7 @@ img{
 }
 
 .fc-img{
-    padding: 80px;
+    padding: 50px;
 }
 
 .AI-txt{
@@ -132,6 +158,11 @@ img{
     max-width: 1530px;
     background-color: #EFF5FD;
     border-radius: 31px;
+    height: 609px;
+}
+
+.bg-sample img{
+    padding: 50px;
 }
 
 .samp-txt{
