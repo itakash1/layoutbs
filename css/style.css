@@ -134,7 +134,6 @@ img{
     max-width: 1530px;
     background-color: #EFF5FD;
     border-radius: 31px;
-    min-height: 609px;
 }
 
 .fc-txt{
@@ -158,11 +157,6 @@ img{
     max-width: 1530px;
     background-color: #EFF5FD;
     border-radius: 31px;
-    height: 609px;
-}
-
-.bg-sample img{
-    padding: 50px;
 }
 
 .samp-txt{
@@ -241,8 +235,8 @@ img{
         justify-content: center;
         text-align: center;
     }
-    .samp-img{
-        padding: 20px;
+    .samp-img img{
+        padding: 10px;
     }
     .email-void-pos{
         justify-content: center;
@@ -297,8 +291,8 @@ img{
         justify-content: center;
         text-align: center;
     }
-    .samp-img{
-        padding: 30px;
+    .samp-img img{
+        padding: 10px;
     }
     .email-void-pos{
         justify-content: center;
@@ -351,7 +345,7 @@ img{
         justify-content: center;
         text-align: center;
     }
-    .samp-img{
+    .samp-img img{
         padding: 20px;
     }
     .email-void-pos{
@@ -380,9 +374,15 @@ img{
     .AI-txt{
         align-items: center;
     }
+    .AI-img{
+        padding: 0px;
+    }
     .samp-txt{
         padding-top: 15px;
         justify-content: center;
+    }
+    .samp-img img{
+        padding: 0px;
     }
     .email-void-pos{
         justify-content: center;
